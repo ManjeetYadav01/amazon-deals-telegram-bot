@@ -122,7 +122,7 @@ class AmazonTelegramDealsBot:
                     'discount': 'N/A',
                     'availability': 'N/A',
                     'max_order_quantity': 'N/A',
-                    'affiliate_url': f"https://www.amazon.in/dp/{asin}?tag=akki22784-21&linkCode=ogi&th=1&psc=1"
+                    'affiliate_url': f"https://www.amazon.in/dp/{asin}?tag={AMAZON_ASSOC_TAG}"
                 }
 
                 # Title
